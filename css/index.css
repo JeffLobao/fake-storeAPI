@@ -20,3 +20,42 @@ header :where(input, select){
     border-radius: 5px;
     padding-left: 10px;
 }
+
+#produtos {
+    margin: 0 100px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+}
+
+#produtos .card {
+    width: calc(25% - 12px);
+    box-shadow: 0 5px 10px #00000025;
+    border-radius: 10px;
+}
+
+#produtos .card .card-imagem {
+    position: relative;
+}
+
+#produtos .card .card-imagem img{
+    width: 100%;
+    height: 250px;
+    object-fit: contain;
+    display: block;
+}
+
+#produtos .card .card-info{
+    padding: 16px;
+
+}
+
+#produtos .card .card-info h6{
+    font-size: 12px;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: .5px;
+    margin-top: 6px;
+    margin-bottom: 16px;
+
+}
